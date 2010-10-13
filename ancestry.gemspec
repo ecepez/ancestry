@@ -1,4 +1,4 @@
-require 'rake'
+#require 'rake'
 
 Gem::Specification.new do |s|
   s.name        = 'ancestry'
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email    = 's.a.kroes@gmail.com'
   s.homepage = 'http://github.com/stefankroes/ancestry'
 
-  s.files = FileList[
+  s.files = [
     'ancestry.gemspec', 
     'init.rb', 
     'install.rb', 

@@ -1,3 +1,4 @@
+require 'active_record'
 require 'ancestry/class_methods'
 require 'ancestry/instance_methods'
 require 'ancestry/exceptions'
